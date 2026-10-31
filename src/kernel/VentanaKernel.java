@@ -47,11 +47,22 @@ public class VentanaKernel extends JFrame {
 
     public VentanaKernel() {
         super("KernelLab | Simulador de Sistema Operativo");
-        UIManager.put("OptionPane.background", PANEL);
+          // Estilo visual de ventanas emergentes
+        UIManager.put("OptionPane.background", BG);
         UIManager.put("Panel.background", PANEL);
         UIManager.put("OptionPane.messageForeground", TEXT);
+        UIManager.put("OptionPane.foreground", TEXT);
+
         UIManager.put("Button.background", PANEL2);
-        UIManager.put("Button.foreground", TEXT);
+        UIManager.put("Button.foreground", Color.BLACK);
+        UIManager.put("Button.select", BLUE);
+        UIManager.put("Button.focus", BLUE);
+
+// Colores de ventanas de selección
+        UIManager.put("OptionPane.buttonFont", new Font("SansSerif", Font.BOLD, 12));
+        UIManager.put("OptionPane.messageFont", new Font("SansSerif", Font.PLAIN, 13));
+    
+
         UIManager.put("ProgressBar.selectionForeground", Color.WHITE);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(1180, 800));
