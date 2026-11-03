@@ -66,10 +66,9 @@ Si los comandos no reconocen `javac` o `java`, revise la instalación del JDK y 
 
 ## 4. Descripción de la interfaz gráfica
 
-<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/c9757439-f6f7-4d59-b0ff-c08fb144a6e0" />
-
-
 La ventana presenta paneles de control y un área de salida. Los nombres y la distribución exacta pueden variar ligeramente según la resolución de pantalla.
+
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/c9757439-f6f7-4d59-b0ff-c08fb144a6e0" />
 
 ### 4.1 Indicadores generales
 
@@ -92,6 +91,8 @@ La ventana presenta paneles de control y un área de salida. Los nombres y la di
 | `BLOQUEADO` | Espera un semáforo o recurso. |
 | `TERMINADO` | Completó su ráfaga de CPU. |
 | `ABORTADO` | Fue cancelado por el usuario. |
+
+<img width="1557" height="602" alt="image" src="https://github.com/user-attachments/assets/10100f6d-2a09-437f-9cce-a9c0eadbf77a" />
 
 ## 5. Operaciones principales
 
@@ -162,6 +163,8 @@ El simulador incluye recursos exclusivos identificados como **R1** y **R2**.
 
 Un recurso ocupado puede hacer que otro proceso tenga que esperar. Siga los mensajes de la bitácora para conocer el resultado de cada operación.
 
+<img width="1462" height="156" alt="image" src="https://github.com/user-attachments/assets/afd06e47-0839-4523-8016-5b06405ced3d" />
+
 ### 5.7 Demostrar o detectar un interbloqueo (deadlock)
 
 El interbloqueo ocurre cuando varios procesos quedan esperando recursos retenidos entre sí y ninguno puede continuar.
@@ -181,6 +184,8 @@ Utilice esta función como experimento académico. Después de la demostración,
 Verifique siempre el PID antes de confirmar. El sistema puede rechazar operaciones sobre procesos inexistentes o que estén en un estado no válido para la acción.
 
 ### 5.9 Reiniciar el kernel
+
+
 
 Utilice la opción **Reiniciar** solo cuando desee comenzar las pruebas desde cero. Confirme el diálogo si aparece.
 
@@ -268,7 +273,3 @@ Los resultados exactos de los tiempos dependen del orden en que se creen y ejecu
 - **Semáforo binario:** mecanismo de sincronización con estado libre/ocupado.
 - **Condición de carrera:** resultado dependiente del orden de ejecución de operaciones concurrentes.
 - **Deadlock o interbloqueo:** situación en la que procesos esperan recursos y no pueden avanzar.
-
----
-
-**Fin del manual de usuario.**
