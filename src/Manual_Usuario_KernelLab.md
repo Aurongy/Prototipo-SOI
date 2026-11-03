@@ -66,6 +66,9 @@ Si los comandos no reconocen `javac` o `java`, revise la instalación del JDK y 
 
 ## 4. Descripción de la interfaz gráfica
 
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/c9757439-f6f7-4d59-b0ff-c08fb144a6e0" />
+
+
 La ventana presenta paneles de control y un área de salida. Los nombres y la distribución exacta pueden variar ligeramente según la resolución de pantalla.
 
 ### 4.1 Indicadores generales
