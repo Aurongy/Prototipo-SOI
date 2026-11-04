@@ -104,8 +104,7 @@ termina su ráfaga, finaliza y libera la memoria asignada.
 -   El simulador utiliza Java y Swing; no requiere acceso a hardware
     especial.
 
-> La versión exacta de Windows utilizada durante las pruebas del equipo
-> debe confirmarse y puede añadirse aquí. No se ha establecido
+> No se ha establecido
 > compatibilidad verificada con Linux o macOS.
 
 ### Hardware
@@ -254,17 +253,6 @@ java -cp out kernel.Main
                                                   el acceso
   -----------------------------------------------------------------------
 
-### Pendiente de completar
-
--   Validar la sección crítica y la variable compartida.
--   Ejecutar y documentar el escenario de condición de carrera.
--   Provocar el deadlock entre R1 y R2.
--   Verificar la detección del ciclo y el aborto de un proceso.
--   Realizar pruebas integrales y de estrés.
--   Completar el informe académico y sus evidencias.
-
-Los resultados pendientes no deben considerarse aprobados hasta ejecutar
-y registrar sus pruebas.
 
 ## Equipo
 
@@ -274,8 +262,6 @@ Proyecto colaborativo de **Sistemas Operativos I**.
     [Aurongy/Prototipo-SOI](https://github.com/Aurongy/Prototipo-SOI)
 -   Rama principal: `master`
 
-Añadir aquí los nombres de todos los integrantes y sus responsabilidades
-acordadas por el equipo.
 
 ## Licencia
 
